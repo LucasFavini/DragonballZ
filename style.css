@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+*
+{
+    font-family: 'Oswald';   
+    font-weight: bold;   
+    margin: 0;
+}
+
+
+
+header{
+    background-color: black; 
+    display: flex;
+    justify-content: flex-start;
+    padding: 16px;
+    box-shadow: 4px 39px 90px -12px rgba(0,0,0,0.40);
+}
+
+#barraNav a
+{
+    padding: 0px 20px;
+    text-decoration:none;
+    margin: 16px 35px;
+    font-size: 25px;
+    color: white;
+}
+
+#barraNav img {
+    display: flex;  
+    width: 20%;
+}
+
+body 
+{    
+    background-color: #F7F7F9; 
+}
+
+
+#banners
+{
+    width: 100%;
+}
+
+#banner1
+{ 
+    background-image: url("./img/vegeta.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;    
+    background-position: center center;
+    border-radius: 10px;
+    border: 1px solid;
+    height: 400px;
+    padding: 0px 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#banner1  p 
+{   
+    display: flex;
+    justify-content: flex-end;
+    font-size: 37px;
+    margin-right: 100px;
+    color: white;    
+}
+
+#banner2
+{
+    background-image: url("./img/goku.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: flex-start;
+    background-position: center center;
+    border-radius: 10px;
+    border: 1px solid;
+    height: 400px;   
+    margin-bottom: 10px;
+}
+
+#banner2 p 
+{   
+         
+    margin-left: 50px;   
+    font-size: 37px;
+    color: white;
+}
+#banner3
+{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 16px;
+    justify-content: space-around;
+    flex-grow: 1;    
+}
+.cards {
+    width: 400px;
+    height: 350px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    display: flex;   
+    box-shadow: 8px 10px 43px -12px rgba(0,0,0,0.75);
+}
+.cards img
+{
+    height: 300px;
+    width: 150px;
+    margin-top: 15px;
+    background-size: cover;
+    order: 1;    
+}
+.cards p 
+{
+    margin-left: 25px;
+    overflow: hidden;
+}
+footer
+{
+    box-shadow: 10px -8px 36px -16px rgba(0,0,0,0.75);
+    background-color: black;
+  
+   
+}
+
+#footercards
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.fcards{
+    margin: 10px;
+    width:  300px;
+    height: 300px;      
+}
+
+.fcards a
+{    
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 37px;
+    text-decoration: none;
+}
+
+.fcards span
+{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 20px;
+    color: white;
+    font-size: 20px;
+}
